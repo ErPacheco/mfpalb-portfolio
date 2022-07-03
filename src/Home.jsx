@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
 
-export default function App() {
+const Home = () => {
   return (
-    <div>
+    <div className='home'>
       <h1 className='heading__one'>React application!!!</h1>
     </div>
   );
-}
+};
+
+export default Home;

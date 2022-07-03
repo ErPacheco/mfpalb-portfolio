@@ -1,0 +1,8 @@
+@import url('./colors.css');
+
+body {
+  background-color: var(--plae_spring_bud);
+  color: var(--smoky_black);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
