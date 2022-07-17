@@ -1,10 +1,20 @@
 import React from 'react';
+import NavBar from './components/NavBar/index.jsx';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div className='home'>
-      <h1 className='heading__one'>React application!!!</h1>
-    </div>
+    <BrowserRouter>
+      <div className='home'>
+        <NavBar />
+        <Routes>
+          <Route
+            path='/'
+            element={<h1 className='heading__one'>React application!!!</h1>}
+          ></Route>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 };
 
