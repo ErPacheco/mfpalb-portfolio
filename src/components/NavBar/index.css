@@ -14,10 +14,8 @@ a {
 .navbar-block .navbar-links {
   display: flex;
   align-items: center;
-  justify-content: space-around;
   text-transform: uppercase;
 
-  background-color: rgb(136, 136, 136);
   padding: 5px;
   border-radius: 50px;
 }
@@ -25,5 +23,10 @@ a {
 .navbar-block .navbar-links a {
   padding: 8px;
   border-radius: 50px;
-  background-color: aquamarine;
+  white-space: nowrap;
+}
+
+.navbar-block .navbar-links .selected {
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
 }

@@ -11,7 +11,8 @@ describe('NavBar', () => {
         <NavBar />
       </MemoryRouter>
     );
+
     expect(getByText('About me')).toBeInTheDocument();
+    expect(getByText('Experience')).toBeInTheDocument();
   });
 });
-
